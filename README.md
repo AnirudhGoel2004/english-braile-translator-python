@@ -10,6 +10,11 @@ A Python-based command-line application for bidirectional translation between En
 
 ## Usage
 
-To translate text, pass an English or Braille string as an argument:
-```bash
-python translator.py "Your input here"
+- For **English input**, pass the text within quotes:
+  ```bash
+  python translator.py "Hello world"
+  
+- For **Braille input**, pass the Braille string without quotes:
+  ```bash
+  python translator.py .....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..
+
